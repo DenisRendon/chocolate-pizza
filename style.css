@@ -1,1 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
+header { 
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(99, 98, 98);
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li:first-child {
+    float: left;
+}
+
+li :logo {
+    margin-right: auto;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+#bigpicture {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(auto, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.six {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.FixedHeightContainer {
+    float: right;
+    height: 480px;
+    width: 400px;
+    background: #f00;
+}
+
+.Content {
+    height: auto;
+    overflow: scroll;
+    height: 480px;
+    width: 400px;
+    background: #fff;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: darkgrey;
